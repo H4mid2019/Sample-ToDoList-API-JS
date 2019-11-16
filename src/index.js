@@ -16,7 +16,7 @@ for (let rr = 0; rr < 5; rr++) {
       node3.appendChild(textnode3);
       let node4 = document.createElement("P");
       let textnode4 = document.createTextNode(
-        "Completed:" + "  " + json["completed"]
+        "Completed:    " + json["completed"]
       );
       node4.classList = "card-text";
       node2.appendChild(node4);
